@@ -12,7 +12,7 @@
 
 <body>
 	<main id="main" class="main">
-		<form>
+		<form id="form">
 			<label for="button">Button:</label>
 			<input type="button" name="button" value="Button"></br>
 
@@ -43,25 +43,94 @@
 			<label for="email">Email</label>
 			<input type="email" name="email"></br>
 
-			<input type="month"></br>
-			<input type="number"></br>
-			<input type="password"></br>
-			<input type="radio"></br>
-			<input type="range"></br>
-			<input type="search"></br>
-			<input type="tel"></br>
-			<input type="text"></br>
-			<input type="time"></br>
-			<input type="url"></br>
-			<input type="week"></br>
-			<input type="hidden"></br>
-			<!-- <select> z dowolnym i 5 <option>
- j.w. dodatkowo opcją „multiselect”
- <datalist> z listą 20 różnych pozycji
-Pole <textarea> - pole będzie służyć jako komentarz użytkownika -->
+			<label for="month">Month:</label>
+			<input type="month" name="month"></br>
+
+			<label for="number">Number:</label>
+			<input type="number" name="number"></br>
+
+			<label for="password">Password:</label>
+			<input type="password" name="password"></br>
+
+			<label for="radio">Radio</label>
+			<input type="radio" name="radio"></br>
+
+			<label for="range">Range</label>
+			<input type="range" name="name"></br>
+
+			<label for="search">Search:</label>
+			<input type="search" name="search"></br>
+
+			<label for="tel">Tel:</label>
+			<input type="tel" name="tel"></br>
+
+			<label for="text">Text:</label>
+			<input type="text" name="text" value="Hellow World!"></br>
+
+			<label for="time">Time:</label>
+			<input type="time" name="time"></br>
+
+			<label for="url">Url:</label>
+			<input type="url" name="url"></br>
+
+			<label for="week">Week:</label>
+			<input type="week" name="week"></br>
+
+			<label for="hidden">Hidden:</label>
+			<input type="hidden" name="hidden"></br>
+
+			<label for="select">Select</label>
+			<select name="select">
+				<option>Option 1</option>
+				<option>Option 2</option>
+				<option>Option 3</option>
+				<option>Option 4</option>
+				<option>Option 5</option>
+			</select></br>
+
+			<label for="cars">Multiselect:</label>
+			<select name="cars" id="cars">
+				<optgroup label="Swedish Cars">
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="maluch">Maluch</option>
+				</optgroup>
+				<optgroup label="German Cars">
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</optgroup>
+			</select> </br>
+
+			<label for="browser">Datalist</label>
+			<input list="browsers" name="browser" id="browser">
+			<datalist id="browsers">
+				<option value="Option 1"></option>
+				<option value="Option 2"></option>
+				<option value="Option 3"></option>
+				<option value="Option 4"></option>
+				<option value="Option 5"></option>
+				<option value="Option 6"></option>
+				<option value="Option 7"></option>
+				<option value="Option 8"></option>
+				<option value="Option 9"></option>
+				<option value="Option 10"></option>
+				<option value="Option 11"></option>
+				<option value="Option 12"></option>
+				<option value="Option 13"></option>
+				<option value="Option 14"></option>
+				<option value="Option 15"></option>
+				<option value="Option 16"></option>
+				<option value="Option 17"></option>
+				<option value="Option 18"></option>
+				<option value="Option 19"></option>
+				<option value="Option 20"></option>
+			</datalist></br>
+
+			<label for="textarea">Textarea:</label>
+			<textarea name="textarea"></textarea></br>
 		</form>
 	</main>
-	<div id="show">TUTAJ WYSWIETLANIE</div>
+	<div id="preview">TUTAJ WYSWIETLANIE</div>
 	<script src="../js/index.js"></script>
 </body>
 
